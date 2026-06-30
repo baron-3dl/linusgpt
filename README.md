@@ -13,5 +13,33 @@ An affectionate, clearly-labeled **parody / homage to the whole Linus Torvalds**
 - **The product** — [`docs/signature-interaction.md`](docs/signature-interaction.md) (the roast wedge), [`docs/experience-spec.md`](docs/experience-spec.md) (the four modes), [`docs/api-spec.md`](docs/api-spec.md) (the engine).
 - **Try it now** — the [`/linusmode`](.claude/skills/linusmode/) Claude Code skill (pure prompt, no backend).
 
+## Install & use
+
+The working surface today is the **`/linusmode` Claude Code skill** — pure prompt, **no server, no API key, no build step.**
+
+**Prerequisite:** [Claude Code](https://claude.com/claude-code) installed.
+
+### Option A — try it inside this repo
+```bash
+git clone https://github.com/baron-3dl/linusgpt.git
+cd linusgpt
+claude            # open Claude Code here; the project skill auto-loads
+```
+Then type `/linusmode`. (If it doesn't show up, open `/hooks` once or restart Claude Code to reload skills.)
+
+### Option B — install it globally (use `/linusmode` in any project)
+```bash
+git clone https://github.com/baron-3dl/linusgpt.git
+mkdir -p ~/.claude/skills
+cp -r linusgpt/.claude/skills/linusmode ~/.claude/skills/
+# …or symlink instead, to track updates:
+# ln -s "$(pwd)/linusgpt/.claude/skills/linusmode" ~/.claude/skills/linusmode
+```
+Restart Claude Code (or open `/hooks`) so the skill registers; then `/linusmode` works anywhere.
+
+### Use
+- `/linusmode` — flip into Linus mode: paste code to get it roasted/reviewed, or ask him anything. Say **`exit`** to leave.
+- `/linusmode --sfw` — same bite, censored profanity.
+
 ## Status
 The **voice** and the **`/linusmode` skill** work today. The **API**, **web**, and **chatbot** surfaces are designed and mapped but not yet built. Open decisions and the build order are in [`TASKS.md`](TASKS.md).
