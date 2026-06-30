@@ -1,4 +1,4 @@
-# LinusGPT *(working title — see POSTURE on the name)*
+# LinusGPT
 
 An affectionate, clearly-labeled **parody / homage to the whole Linus Torvalds** — paste your own code and get it roasted in his LKML voice, or talk to him about taste, philosophy, and craft. Intended to be **donated to the Linux Foundation**.
 

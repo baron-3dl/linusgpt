@@ -35,7 +35,7 @@ The not-Linus point is self-evident and on-brand, so labeling is cheap and funny
 ## Marks, likeness, name
 - **No Linux® / Tux.** "Linux" is the Linux Foundation's trademark — a genuinely separate party (this point is about the LF, not about appeasing Linus). Don't use the word "Linux," the trademark styling, or Tux in chrome or the card. Cheap, removes a real trademark snag.
 - **Caricature fine; no photo / voice-clone.** An obvious illustrated caricature is classic parody. A realistic photo-likeness or a voice clone reads as impersonation, not parody, and we don't need it.
-- **Name:** "Linus," used descriptively for parody, is fine and stays. **Drop "GPT"** — it implies an OpenAI affiliation we don't have (false association, and misleading if we're not on an OpenAI model). Purely an OpenAI point, independent of anything Linus.
+- **Name: LinusGPT — locked.** "Linus" used descriptively for parody is fine, and **"GPT" stays** — it's generic tech, not OpenAI branding: the USPTO refused OpenAI's "GPT" trademark (Feb 2024) as merely descriptive/generic, "not protectable under any circumstance." "LinusGPT" reads as "Linus, as an AI," which is accurate, and the AI-bot signal helps land the parody. Only non-blocking note: OpenAI's brand-*usage policy* requests no "GPT" in product names — an unenforceable ask for a generic term. (Earlier "drop GPT" was overcautious; corrected.)
 
 ## Superseded
 Replaces the prior right-of-publicity / consent threat model and the Gene-mediated Linus-awareness recommendation in full. No consent-seeking, no appeasement rename fallback, no takedown-to-placate runbook.
